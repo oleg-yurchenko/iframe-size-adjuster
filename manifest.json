@@ -1,0 +1,13 @@
+{
+    "manifest-version": 1,
+
+    "name": "Modify iframe size",
+    "version": "0.1.0",
+    "description" : "To modify the iframe size on Brightspace pages to let teachers allow google drive embeds",
+
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["https://tdsb.elearningontario.ca/d2l/*"]
+    }]
+}
