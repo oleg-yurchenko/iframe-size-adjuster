@@ -1,5 +1,5 @@
 {
-    "manifest-version": 1,
+    "manifest-version": 2,
 
     "name": "Modify iframe size",
     "version": "0.1.0",
